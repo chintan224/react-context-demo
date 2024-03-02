@@ -9,7 +9,7 @@ const Main = () => {
     return (
         <main style= {{
             padding: "1rem",
-            backgroundColor: `${currentTheme.backgroundColor}`,
+            backgroundColor : `${currentTheme.backgroundColor}`,
             color: `${currentTheme.textColor}`
         }}>
 

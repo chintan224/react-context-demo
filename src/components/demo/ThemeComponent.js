@@ -10,8 +10,9 @@ const ThemeComponent = () => {
     return (
         <ThemeContext.Provider value={themeHook}>
             <div>
-                <Header />
+                <Header />  
                 <Main />
+
             </div>
         </ThemeContext.Provider>
     )

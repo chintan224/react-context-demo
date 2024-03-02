@@ -5,8 +5,9 @@ import ThemeComponent from './components/demo/ThemeComponent';
 
 function App() {
   return (<div>
-    <Component1/>
-    <ThemeComponent />
+    {/* <Component1/>
+    <ThemeComponent /> */}
+      <ThemeComponent />
     </div>
   );
 }

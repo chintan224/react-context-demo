@@ -1,17 +1,16 @@
 import { useContext } from "react";
 import ThemeContext from "./ThemeContext";
 
-const themeTogglerStyle = {
+const ThemeTogglerStyle = {
     cursor: "pointer"
 }
 
 const ThemeToggler = () => {
-    const[themeMode, setThemeMode] = useContext(ThemeContext);
-
+    const [themeMode,setThemeMode] = useContext(ThemeContext);
     return (
-        <div style={themeTogglerStyle} onClick= {()=> {setThemeMode(themeMode === "light" ? "dark" : "light")}}>
-            <span title="Switch Theme">
-                {themeMode === "light" ? "dark" : "light"}
+        <div style={ThemeTogglerStyle} onClick={()=>setThemeMode(themeMode === 'light' ? 'dark' : 'light')}>
+            <span title="swithc theme">
+                {themeMode === 'light' ? 'Dark' : 'Light'}
             </span>
         </div>
     )

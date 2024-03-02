@@ -1,18 +1,18 @@
 import ThemeToggler from "./ThemeToggler";
 
-const headerStyles = {
-    padding: "1rem",
-    display: "flex",
-    justifyContent: "space-between",
+const headerStyle = {
+    padding:"1rem",
+    display:"flex",
+    justifyContent:"space-between",
     alignItems: "center"
 }
 
 const Header = () => {
     return (
-        <Header style = {headerStyles}>
+        <header style={headerStyle}>
             <h1>Context API</h1>
-            <ThemeToggler />
-        </Header>
+            <ThemeToggler/>
+        </header>
     )
 }
 

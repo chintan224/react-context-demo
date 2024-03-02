@@ -1,13 +1,12 @@
-import logo from './logo.svg';
+import C1 from './components/Demo/c1';
 import './App.css';
-import Component1 from './components/demo/Component1';
-import ThemeComponent from './components/demo/ThemeComponent';
+import ThemeComponent from './components/Demo/ThemeComponent';
 
 function App() {
+  
   return (
-  <div>
-    
-     <ThemeComponent /> 
+    <div className="App">
+      <ThemeComponent/>
     </div>
   );
 }

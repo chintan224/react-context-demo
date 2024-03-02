@@ -1,22 +1,20 @@
-import Text from "./Text";
 import { useState } from "react";
+import Text from "./Text";
 import ThemeContext from "./ThemeContext";
-import Header from "./header";
-import Main from "./ThemeInvoker";
+import Header from "./Header";
+import ThemeInvoker from "./ThemeInvoker";
 
 const ThemeComponent = () => {
-    const themeHook = useState("light")
+   const themehook = useState("light");
 
     return (
-        <ThemeContext.Provider value={themeHook}>
+        <ThemeContext.Provider value={themehook}>
             <div>
-                <Header />  
-                <Main />
-
+                <Header/>
+                <ThemeInvoker/>
             </div>
         </ThemeContext.Provider>
     )
-
 }
 
-export default ThemeComponent
+export default ThemeComponent;

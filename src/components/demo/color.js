@@ -1,12 +1,12 @@
 const AppTheme = {
     light: {
-        textColor: "#000",
-        backgroundColor: "#fff"
+        textColor:'#000',
+        backgroundColor:'#fff'
     },
-    dark: {
-        textColor: "#fff",
-        backgroundColor: "#333"
+    dark : {
+        textColor:'#fff',
+        backgroundColor: '#333'
     }
 }
 
-export default AppTheme
+export default AppTheme;
